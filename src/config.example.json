@@ -1,0 +1,23 @@
+{
+  "googleDrive": {
+    "folderUrl": "https://drive.google.com/drive/folders/YOUR_FOLDER_ID",
+    "enabled": true
+  },
+  "api": {
+    "baseUrl": "https://api.car-cutter.com/vehicle/image",
+    "apiKey": "YOUR_API_KEY"
+  },
+  "processing": {
+    "cutType": "none",
+    "guidelineId": "default",
+    "parallelProcessing": false,
+    "maxConcurrent": 3
+  },
+  "polling": {
+    "intervalMs": 5000,
+    "maxRetries": 60
+  },
+  "output": {
+    "suffix": "_processed"
+  }
+}

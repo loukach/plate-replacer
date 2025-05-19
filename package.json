@@ -1,0 +1,20 @@
+{
+  "name": "license-plate-replacer",
+  "version": "1.0.0",
+  "description": "A script to replace license plates in images using a 3rd party processor",
+  "main": "src/plate_replacer.js",
+  "scripts": {
+    "start": "node src/plate_replacer.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "plate-replacer": "./src/plate_replacer.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "form-data": "^4.0.2",
+    "googleapis": "^128.0.0",
+    "open": "^9.1.0"
+  }
+}
