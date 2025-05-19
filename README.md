@@ -69,7 +69,7 @@ All settings are in `src/config.json`:
     "cutType": "none",
     "guidelineId": "default",
     "parallelProcessing": false,
-    "maxConcurrent": 3
+    "maxConcurrent": 20
   },
   "polling": {
     "intervalMs": 5000,
