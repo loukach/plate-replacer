@@ -14,7 +14,8 @@ A simple script that processes images by replacing license plates with a custom 
 1. Install dependencies: `npm install`
 2. Place any PNG file in the `plate` directory (this will be used as your license plate replacement)
 3. Copy `src/config.example.json` to `src/config.json` and add your API key
-4. Set your Google Drive folder ID or use local images
+4. Set your Google Drive folder ID or use local images.
+   ## Make sure the Google Drive folder is publically accessible ##
 
 ## Usage
 
